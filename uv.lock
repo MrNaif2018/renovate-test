@@ -330,8 +330,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "opentelemetry-distro", extras = ["otlp"], specifier = ">=0.61b0,<0.62" },
-    { name = "opentelemetry-sdk", specifier = ">=1.40.0,<1.41.0" },
+    { name = "opentelemetry-distro", extras = ["otlp"], specifier = "==0.61b0" },
+    { name = "opentelemetry-sdk", specifier = "==1.40.0" },
 ]
 
 [[package]]

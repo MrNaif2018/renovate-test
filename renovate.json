@@ -3,8 +3,8 @@
     "extends": ["config:recommended"],
     "packageRules": [
         {
-            "matchPackageNames": ["opentelemetry-distro"],
-            "rangeStrategy": "replace",
+            "matchPackageNames": ["opentelemetry-*"],
+            "rangeStrategy": "pin",
             "ignoreUnstable": false
         }
     ]
