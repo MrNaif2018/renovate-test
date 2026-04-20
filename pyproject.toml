@@ -2,4 +2,4 @@
 name = "pep440-prerelease-repro"
 version = "0.0.1"
 requires-python = ">=3.12"
-dependencies = ["opentelemetry-distro[otlp]==0.61b0", "opentelemetry-sdk==1.40.0"]
+dependencies = ["opentelemetry-distro[otlp]==0.62b0", "opentelemetry-sdk==1.40.0"]
