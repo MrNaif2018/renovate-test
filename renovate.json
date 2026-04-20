@@ -4,7 +4,8 @@
     "packageRules": [
         {
             "matchPackageNames": ["opentelemetry-distro"],
-            "rangeStrategy": "replace"
+            "rangeStrategy": "replace",
+            "ignoreUnstable": false
         }
     ]
 }
