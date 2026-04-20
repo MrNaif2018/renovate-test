@@ -3,9 +3,14 @@
     "extends": ["config:recommended"],
     "packageRules": [
         {
-            "matchPackageNames": ["opentelemetry-*"],
+            "extends": [
+                "monorepo:opentelemetry-python",
+                "monorepo:opentelemetry-python-contrib"
+            ],
             "rangeStrategy": "pin",
-            "ignoreUnstable": false
+            "ignoreUnstable": false,
+            "separateMajorMinor": false,
+            "groupName": "opentelemetry packages"
         }
     ]
 }
